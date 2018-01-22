@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+	background: url('img/bg.png');
+}
+
+#header{
+	width: 100%;
+	margin-top: 20px;
+}
+
+#logo{
+	float: left;
+	width: 10%;
+	height: auto;
+}
+
+
+#logo img{
+	height: 30px;
+	padding: 11px 0px 6px 22px;
+}
+
+#search{
+	float: left;
+	width: 70%;
+	padding-top: 10px;
+	margin-left: -80px;
+
+}
+
+#search input{
+	background: url(img/search.png) no-repeat scroll 7px 7px;
+	background-color: #FFFFFF;
+	padding-left: 30px;
+	position: relative;
+    height: 28px;
+    width: 40%;
+    margin: 0;
+	border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
+
+::-webkit-input-placeholder {
+  padding: 3px;
+}
+
+#signup{
+	text-align: right;
+	margin-top: 12px;
+	margin-right: 20px;
+}
+
+#signup button{
+	background-color: #FFFFFF;
+    border: none;
+    color: #000000;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 7px 5px;
+    border-radius: 5px;
+}
+
+#main{
+	float: none;
+	width: 20%;
+	margin: 140px auto;
+	padding: 0 auto;
+}
+
+#main img{
+	width: 100%;
+	overflow: hidden;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#form{
+	width: 100%;
+	height: auto;
+}
+
+#form input{
+    width: 100%;
+    height: 28px;
+    align-content: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#login{
+	width: 100%;
+	margin-top: 10px;
+}
+
+#login button{
+	background-color: #EEEEEE;
+	width: 100%;
+    border: none;
+    color: #000000;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+h5{
+	width: 100%;
+	margin: 10px auto;
+	align-content: center;
+	text-align: center;
+}
+
+#footer{
+	margin: 20px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#links, #posted{
+	float:left;
+	width: 50%;
+}
+
+
+#links ul{
+	list-style: none;
+}
+
+#links ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 10px;
+	color: #FFFFFF;
+}
+
+#posted{
+	text-align: right;
+	color: #FFFFFF;
+}
+
+#posted a{
+	text-transform: none;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+
+
